@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_text_black">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#3B3B3B</item>
+    </style>
+
+    <style name="style_text_light_dark">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#949494</item>
+    </style>
+
+    <style name="style_text_red">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FA4A56</item>
+    </style>
+</resources>

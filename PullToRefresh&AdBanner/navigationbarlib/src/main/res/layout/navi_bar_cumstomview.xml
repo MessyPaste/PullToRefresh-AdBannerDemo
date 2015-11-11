@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/navi_bar"
+    android:gravity="center"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:id="@+id/framelayout_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/normal_divider"
+        android:layout_marginRight="@dimen/normal_divider"
+        android:layout_toLeftOf="@id/framelayout_right"
+        android:layout_toRightOf="@+id/framelayout_left">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/normal_divider">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/normal_divider">
+
+    </FrameLayout>
+
+
+</RelativeLayout>

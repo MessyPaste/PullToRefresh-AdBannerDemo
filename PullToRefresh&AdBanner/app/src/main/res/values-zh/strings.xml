@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PullToRefresh&amp;AdBanner</string>
+    <string name="info">这里可以显示其它内容,本案例解决了下拉刷新和图片轮播滑动事件冲突的问题(可以达到和淘宝京东等同样的效果),查看我的更多案例,请关注我的GitHUb或者微博@LiuTaw</string>
+</resources>

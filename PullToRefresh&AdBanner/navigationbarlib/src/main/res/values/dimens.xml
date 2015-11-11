@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_divider">8dp</dimen>
+    <dimen name="navi_bar_height">50dp</dimen>
+</resources>
